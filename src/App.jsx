@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 
 let isBusyOutside = false;
+console.log('isBusyOutside', isBusyOutside);
 
 function App() {
     const [count1, setCount1] = useState(0);
